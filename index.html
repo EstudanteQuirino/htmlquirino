@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DA2 -Bootstrap</title>
+    <link rel="stylesheet" href="/estilo.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+</head><body>
+    <!--nave -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                DA2
+            </a><button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">
+                </span>
+            </button><div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#">Zona 1</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Zona 2</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Zona 3</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--fim da nave -->
+
+    <div class="card">
+        <div class="card-body text-center bg-light">
+            <h1 class="card-title">
+                Ola! Bem vindo ao website de DA2!
+            </h1><h6 class="card-subtitle mb-2 text-muted">
+                Esta pagina demonstra a utilizacao do Bootstrap
+            </h6>
+        </div>
+    </div>
+
+    <!--grid  -->
+    <center>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <form action="http://symlink.dk/code/php/submit/" method="post">
+
+
+                        <label for="nome"><b>Nome</b></label>
+                        </p>
+                        <input type="text" placeholder="Enter Name" name="name" id="name" required>
+                        </p>
+
+                        <label for="email"><b>Email</b></label>
+                        </p>
+                        <input type="text" placeholder="Enter Email" name="email" id="email" required>
+
+                        </p>
+                        <label for="psw"><b>Password</b></label>
+                        </p>
+                        <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+                        </p>
+
+                        <!--radio buttons -->
+
+                        <input type="radio" id="iniciante" name="experiencia" value="iniciante">
+                        <label for="iniciante">iniciante</label>
+                        <br>
+
+
+
+                        <input type="radio" id="experiente" name="experiencia" value="experiente">
+                        <label for="experiente">experiente</label>
+                        <br>
+
+
+
+                        <!--dropdown -->
+                        </p>
+
+                        <label for="Profissões">Escolha uma profissão:</label>
+
+                        <select name="profissao" id="profissao">
+                            <option value="medico">Medico</option>
+                            <option value="militar">Militar</option>
+                            <option value="professor">Professor</option>
+                            <option value="banqueiro">Banqueiro</option>
+                        </select>
+                        </p>
+
+                        <input type="submit" value="Registar">
+
+                    </form>
+                    <table>
+                    <tr><th>Nome</th><th>Número</th><th>Turma</th></tr>
+                    <tr><td>Jorge</td><td>12345</td><td>GSI21</td></tr><tr>...</tr>
+                    
+                    
+                    
+                    </table>
+                </div>
+                <div class="col">
+                    b
+                </div>
+                <div class="col">
+                    c
+                </div>
+            </div>
+
+        </div>
+    </center>
+
+    <!--fim grid  -->
+
+
+
+
+
+   
+    <script src=https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.jsintegrity ="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+</body>
+</html>
